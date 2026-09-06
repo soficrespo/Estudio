@@ -21,15 +21,25 @@ Python 3.10 o superior
 Una API key gratuita de Gemini 
 
 Instalación
+
 1.Clona el repositorio 
+
   git clone https://github.com/soficrespo/Estudio.git
+  
   cd Estudio
-2.Creá y activá un entorno virtual:
+  
+2.Creá y activá un entorno virtual
+
   python -m venv venv
+  
 3.Instalá las dependencias
+
   pip install -r requirements.txt
+  
 4.Creá un archivo .env en la raíz del proyecto con tu propia API key
+
   Con este formato: GEMINI_API_KEY=tu_clave_aca
+  
 
 Notas
 El nivel gratuito de la API de Gemini tiene límites de requests por minuto/día, suficientes para uso personal de estudio
