@@ -1,13 +1,19 @@
 RAG de Estudio
 
 ¿Que es?
+
 Es un asistente de estudio que permite subir archivos (PDF o Word) y hacer preguntas basadas únicamente en esos documentos, usando la API de Gemini para generar embeddings y respuestas.
 
 ¿Cómo funciona?
+
 1.Subís un documento (PDF o Word)
+
 2.El texto se extrae y se divide en fragmentos (chunks)
+
 3.Cada fragmento se convierte en un embedding (vector numérico) con la API de Gemini
+
 4.Los embeddings se guardan localmente en una base de datos vectorial (ChromaDB)
+
 5.Al hacer una pregunta, se busca qué fragmentos son más relevantes y se los pasa a Gemini como contexto para generar la respuesta
 
 Requisitos
