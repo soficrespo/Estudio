@@ -1,0 +1,15 @@
+# Variables de entorno (API keys, secretos)
+.env
+
+# Entorno virtual
+venv/
+
+# Base de datos vectorial local (no hace falta subirla, se regenera)
+chroma_db/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+
+# Configuración del editor
+.vscode/
